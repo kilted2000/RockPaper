@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="header">
+    <h1>Lets's Play Rock Paper Scissors!</h1>
+    <h2 id="greeting">Good Luck!</h2>
+    <button id="reset">Reset</button>
+    <p id="instructions">
+      Select Rock, Paper, or Scissors <br>
+      Click to Push to Start button to play
+    </p>
+
+  </div>
+  <div id="playerName">
+    <input id='gname' type='text' placeholder='Enter your First Name'><input id="uname" type="button" value="Submit">
+  </div>
+  <div id="score">
+    <p id="winner"></p>
+    <p id="userWins">Player</p>
+    <p id="userPoints"><span id="userScore">0</span></p>
+    <h3>Score</h3>
+    <p id="comWins">Computer</p>
+    <p id="comPoints"><span id="computerScore">0</span></p>
+  </div>
+  <p id="result"></p>
+  <div id="btn">
+    <button id="start">Push to Start</button>
+    <button class="game" id="rock">Rock</button>
+    <button class="game" id="paper">Paper</button>
+    <button class="game" id="scissors">Scissors</button>
+  </div>
+  <script src='RPC.js'></script>
+</body>
+
+</html>
